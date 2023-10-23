@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/70e8ba9f23fdce063a1229c186040561.jpg",Alf O Eteimoso [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/135550.m3u8

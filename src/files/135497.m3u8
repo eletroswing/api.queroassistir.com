@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/c85141e7a83393f8c264c469ac01168e.jpg",Mundo Bita e as Brincadeiras [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/135497.m3u8

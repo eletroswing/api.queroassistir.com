@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/10eb05c9613316dfb3cb1a39efdf13e0.jpg",As Aventuras do Gato de Botas [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/140528.m3u8

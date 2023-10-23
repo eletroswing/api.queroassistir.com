@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/39830ae36c629ad40081ec7e1928b829.jpg",Tico e Teco Defensores da Lei [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/135490.m3u8

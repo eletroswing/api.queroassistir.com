@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/72b7a023e6476367adb2bae9b50969c5.jpg",Liga da Justica Sem Limites [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/138950.m3u8

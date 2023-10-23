@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/a33d7452f089cca266c92ead65278631.jpg",[Filmes] Homem Aranha [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/135556.m3u8

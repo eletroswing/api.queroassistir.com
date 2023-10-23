@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/bcc8ff9ecdc5e82fb84f8d6fe5f8a887.jpg",Transformers War for Cybertron O Reino [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/135504.m3u8

@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/c1e4ede455d78f44ed7721f19fa20e42.jpg",Austin e Ally [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/138750.m3u8

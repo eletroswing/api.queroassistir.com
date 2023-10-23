@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/0f3e2badcb98728f9b2570c0f07d8474.jpg",Betty a Feia [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/138018.m3u8

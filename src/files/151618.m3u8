@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/cCsBAUska0KY9Z5j64Yc1RuCjlX.jpg",Criadores de Diversao [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/151618.m3u8

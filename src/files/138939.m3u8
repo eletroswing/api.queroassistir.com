@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/fc872ab390a132e1f3bf97909ccc5c03.jpg",Ana Pimentinha [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/138939.m3u8

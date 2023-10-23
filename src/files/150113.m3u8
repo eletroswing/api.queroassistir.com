@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/e1cc5fbe29e328009ba875e156b4f897.jpg",O Acampamento de Lazlo [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/150113.m3u8

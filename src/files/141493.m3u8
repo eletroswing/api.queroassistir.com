@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/8afba20f0bab403aa1f4082a185c7186.jpg",Acampamento Lakebottom [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/141493.m3u8

@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/07e3727ba4e9d0dd86be78577a244765.jpg",Yu Yu Hakusho [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/140759.m3u8

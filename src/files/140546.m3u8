@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/5f15050da92808048cd848caca2e943d.jpg",Beyblade  Metal Fusion Beyblade [S04] Metal Fusion
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/140546.m3u8

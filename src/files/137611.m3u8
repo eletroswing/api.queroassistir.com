@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/151df67d8d15f1c0c39c7779f27935b6.jpg",Escolinha do Professor Raimundo [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/137611.m3u8

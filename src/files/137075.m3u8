@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/5f606297563e0123a1c45a3abf6baafe.jpg",Star Wars Rebels  [S04]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/137075.m3u8

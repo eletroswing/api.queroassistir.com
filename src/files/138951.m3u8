@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/0451a159ca67980f36e1b44b714cf241.jpg",Mister Brau [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/138951.m3u8

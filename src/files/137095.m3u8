@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/dba2e3a907b436856d224b277b5b9fa9.jpg",Tratamento de Choque  [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/137095.m3u8

@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/c0171aeb6aef301892834b590d8a5025.jpg",The Big Bang Theory  [S11]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/135466.m3u8

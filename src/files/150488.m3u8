@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/825b77298d574c46209ed0c5c1175063.jpg",Aeroporto Area Restrita  [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/150488.m3u8

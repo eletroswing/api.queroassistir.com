@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/28cda78d0e5f72916a5e5dd8431a9499.jpg",A Casa da Coruja [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/151948.m3u8

@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/d98ad142c0f4c03f8f66f8b3e6ebfce1.jpg",Kevin Pode Esperar  [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/139275.m3u8

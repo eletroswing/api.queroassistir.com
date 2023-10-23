@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/2246772d199347c5251faaac1a270575.jpg",Largados e Pelados  [S03]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/145930.m3u8

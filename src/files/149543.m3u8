@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/99e1066eb3e8b77343fbb44a8b1ccf8d.jpg",Tigue E Lupa Os Detetives [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/149543.m3u8

@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/29bf647848d40916b162ad39dbd47f05.jpg",Masterchef Brasil  [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/137146.m3u8

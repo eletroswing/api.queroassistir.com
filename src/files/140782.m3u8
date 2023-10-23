@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/8c27a9a2796894e5d6c36d28a00e32cf.jpg",Irmaos a Obra [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/140782.m3u8

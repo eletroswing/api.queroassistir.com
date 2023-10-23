@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/10ce659a7edf1bb2a1038313665d9e37.jpg",Comidas Cheias de Historia [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/140779.m3u8

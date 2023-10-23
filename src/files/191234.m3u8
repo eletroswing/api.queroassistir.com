@@ -1,0 +1,5 @@
+#EXTM3U
+
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/191234.m3u8
+

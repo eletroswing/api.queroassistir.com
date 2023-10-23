@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/c04478fffdd1d92588d434abcb00a339.jpg",Gus O Pequeno Cavaleiro [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/150112.m3u8

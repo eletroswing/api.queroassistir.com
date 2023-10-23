@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/c6e4ff3b4ba96e7f2a25988fb8334969.jpg",Rocky e Hudson Os Caubois Gays [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/137438.m3u8

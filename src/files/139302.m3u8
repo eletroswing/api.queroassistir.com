@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/67d742234338eba360da747fd56b9cca.jpg",Jornada nas Estrelas Enterprise  [S03]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/139302.m3u8

@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/f010a91b7b7507f1b681f58dbd426f7e.jpg",Rugrats Os Anjinhos [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/149539.m3u8

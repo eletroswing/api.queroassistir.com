@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/5a2da2da44949249b753d0fce9d6cd4b.jpg",Yabba Dabba Dinossauros [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/139305.m3u8

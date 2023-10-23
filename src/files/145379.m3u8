@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/9b567d6f12390e48352d5700f8df5b47.jpg",Momonstros [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/145379.m3u8

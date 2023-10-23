@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/af8a118a629056bc6c13d5e4ee5f0102.jpg",Ben 10  [S04]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/138718.m3u8

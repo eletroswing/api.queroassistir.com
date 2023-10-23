@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/5f04abca388f9d3b1005642b28246a5f.jpg",Supermansion  [S03]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/149542.m3u8

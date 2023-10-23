@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="https://www.themoviedb.org/t/p/original/tv6yrhWMywp7LIO1VGAQVVQ0tpb.jpg",Homem Aranha da Marvel  [S03]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/155453.m3u8

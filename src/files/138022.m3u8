@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/f8d46ebce886f39998603845cd3fc331.jpg",Eu a Patroa e as Criancas  [S03]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/138022.m3u8

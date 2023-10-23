@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/b1cf7637709d5f863f2707b973e5f68f.jpg",Cavalo de Fogo [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/137613.m3u8

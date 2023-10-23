@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/800e0bef6df2add7074d67534e412c78.jpg",Escolinha do Professor Raimundo Nova Geracao  [S02]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/138029.m3u8

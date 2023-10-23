@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/c1ff04df4897198abb1d0f6d153b703c.jpg",Desenhos Biblicos Historias Inesqueciveis [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/139277.m3u8

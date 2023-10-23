@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/0934486cd02bb0e7a5c4d3963d971b48.jpg",Quilos Mortais  [S05]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/149535.m3u8

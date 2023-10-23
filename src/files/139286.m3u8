@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://24horas.cc:80/images/bac6c67202466738da7a24b24a57c2f1.jpg",Como Eu Conheci Sua Mae  [S08]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/139286.m3u8

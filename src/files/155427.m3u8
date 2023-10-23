@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/22219a38e43a2a4d58d0dd34c43a14c7.jpg",[+18] Filmes Adultos [Pack 14] [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/155427.m3u8

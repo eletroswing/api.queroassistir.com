@@ -1,0 +1,4 @@
+#EXTM3U
+    
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=230000,RESOLUTION=640x360,tvg-logo="http://timg.s3-server.net/images/f8e1405a1448c5c739aaae613afcd0d0.jpg",Super Amigos [S01]
+/api/v1/proxy/m3u8?url=http://s3-server.net/live/378724/pcapQ5/149605.m3u8
