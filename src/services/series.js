@@ -6,7 +6,10 @@ if (process.env.NODE != "PRODUCTION") {
   dotenv.config();
 }
 const redis = new Redis({
-  url: process.env.REDIS_URL
+  port: process.env.REDIS_PORT,
+  host: process.env.REDIS_HOST,
+  password: process.env.REDIS_PASS,
+  username: process.env.REDIS_USER
 });
 
 const categories = {

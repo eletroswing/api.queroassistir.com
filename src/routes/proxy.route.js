@@ -2,16 +2,11 @@ import { Router } from "express";
 import RequestLib from "request";
 import path from "path";
 import Fs from "node:fs";
-import Redis from "ioredis";
 import dotenv from "dotenv";
 if (process.env.NODE != "PRODUCTION") {
   dotenv.config();
 }
 const ProxyRouter = Router();
-
-const redis = new Redis({
-  url: process.env.REDIS_URL
-});
 
 ProxyRouter.get("/proxy/channel/:content", (request, response) => {
   const regex = /^\d{5,6}\.m3u8$/;
@@ -157,19 +152,5 @@ ProxyRouter.get("/proxy/ts", async (request, response_api) => {
     });
   }
 });
-
-ProxyRouter.get('/watch/:id', async (request, response) => {
-  const item = await redis.get(`vod:reference:${request.params.id}`);
-  if(!item) return response.status(404).json({
-    message: "error",
-    error: "Video doest exists.",
-    id: "video-dont-exists",
-  }); 
-
-  response.setHeader('Content-Disposition', `attachment; filename="${request.params.id}.m3u8"`)
-  response.send(`#EXTM3U
-  
-${item}`)
-})
 
 export default ProxyRouter;

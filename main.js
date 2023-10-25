@@ -20,11 +20,11 @@ import moment from "moment-timezone";
 
 moment.tz.setDefault("America/Sao_Paulo");
 
-const logQueue = new Bull("log", process.env.REDIS_URL);
+const logQueue = new Bull("log", { redis: { port: process.env.REDIS_PORT, host: process.env.REDIS_HOST, password: process.env.REDIS_PASS, username: process.env.REDIS_USER }});
 
 import ProxyRouter from "./src/routes/proxy.route.js";
 import TvRouter from "./src/routes/tv.route.js";
-import SerieRouter from "./src/routes/serie.route.js";
+import VodRouter from "./src/routes/vod.route.js";
 import generateRandomId from "./src/services/id.js";
 
 const ApplicationInstance = Express();
@@ -103,7 +103,7 @@ ApplicationInstance.get("/images/:id", (request, response) => {
 
 ApplicationInstance.use("/api/v1", ProxyRouter);
 ApplicationInstance.use("/tv/", TvRouter);
-ApplicationInstance.use("/vod/", SerieRouter);
+ApplicationInstance.use("/vod/", VodRouter);
 
 ApplicationInstance.use("/", (request, response) => {
   response.redirect(process.env.DOCS)
