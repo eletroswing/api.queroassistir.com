@@ -164,6 +164,7 @@ VodRouter.get("/link/:id", async (request, response) => {
 });
 
 VodRouter.get("/watch/:item", async (request, response) => {
+  const regex = /https/gi; 
   if (
     !request.params.item.endsWith(".m3u8") ||
     request.params.item.replace(".m3u8", "").length != 32
@@ -189,22 +190,12 @@ VodRouter.get("/watch/:item", async (request, response) => {
   );
   const meta = RequestLib(item);
 
-  let lastLine = '';
   const transformStream = new Transform({
     transform(chunk, encoding, callback) {
       const data = chunk.toString();
-      const lines = data.split('\n');
-  
-      if (lines.length > 0) {
-        lastLine = lines[lines.length - 1];
-      }
-  
-      callback();
-    },
-    flush(callback) {
-      if (lastLine) {
-        this.push(`#EXTM3U\n${lastLine}\n`);
-      }
+
+      const modified = data.replace(regex, `${process.env.URL}/vod/proxy?url=https`);
+      this.push(modified)
       callback();
     }
   });
@@ -215,5 +206,42 @@ VodRouter.get("/watch/:item", async (request, response) => {
 
   meta.pipe(transformStream).pipe(response);
 });
+
+VodRouter.get("/proxy", async (request, response) => {
+  const regex = /https/gi; 
+
+  if(!request.query.url) return response.status(400).json({
+    message: "error",
+    error: "Missing url",
+    id: "missing url",
+  });
+
+  const meta = RequestLib(request.query.url, {
+    headers: {
+      'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36'
+    },
+    method: 'GET',
+  });
+
+  meta.on("response", (res) => {
+    const contentType = res.headers["content-type"]; // Aqui você obtém o Content-Type
+    if(contentType){
+      response.setHeader("Content-Type", contentType);
+    }
+  });
+  
+  const transformStream = new Transform({
+    transform(chunk, encoding, callback) {
+      this.push(chunk)
+      callback();
+    }
+  });
+
+  request.on("close", () => {
+    meta.abort();
+  });
+
+  meta.pipe(transformStream).pipe(response);
+})
 
 export default VodRouter;
